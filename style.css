@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;  
+    font-family: sans-serif; 
+    background-color: rgb(241, 234, 231); 
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+.navleft{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navleft img{
+width: 30vh;
+margin-left: 12%;
+}
+.navmid{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navmid a{
+color: black;
+text-decoration: none;
+text-transform: capitalize;
+}
+
+.navright{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navright button{
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.navright .fa-bars{
+    font-size: 15px;
+    padding: 6px 8px;
+    background-color: black;
+    color: white;
+    border-radius: 9999px;
+    cursor: pointer;
+
+}
+.navright .profile{
+    width: 27px;
+    height: 27px;
+ background-image: url(./Screenshot_4-9-2024_2198_www.pinterest.com.jpeg);
+ background-position: center;
+ background-size: cover;
+    border-radius: 9999px;
+    cursor: pointer;
+
+}
+
+.heading{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.heading h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.cards{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cards .one{
+    width: 25%;
+    height: 42vh;
+    background-color: whitesmoke;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.cards .two{
+    width: 25%;
+    height: 48vh;
+    border-radius: 16px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.cards .three{
+    width: 25%;
+    height: 46vh;
+    background-color: whitesmoke;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.one .oneup{
+
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+
+}
+
+.one .oneup .fa-car{
+    padding: 12px 12px;
+    background-color: rgb(212,179,167);
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.oneup h2{
+margin-top: 5px;
+font-size: 29px;
+font-weight: 500;
+}
+
+.oneup p{
+    font-size: 14px;
+    color: gray;
+}
+.oneup p em{
+    font-style: normal;
+    color: rgb(160, 159, 159);
+    
+}
+.one .onedown{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.one .onedown .fa-fire-flame-curved,.fa-droplet{
+    font-size: 19px;
+    padding: 12px 14px;
+    background-color: rgba(255, 255, 255, 0.537);
+    border-radius: 999px;
+    border: 1px solid black;
+}
+
+
+/*  */
+
+
+.two .twoup{
+
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+
+}
+
+.two .twoup .fa-shield-halved{
+    padding: 12px 12px;
+    background-color: rgb(212,179,167);
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.twoup h2{
+margin-top: 5px;
+font-size: 29px;
+font-weight: 500;
+}
+
+.twoup p{
+    font-size: 14px;
+    color: gray;
+}
+.twoup p em{
+    font-style: normal;
+    color: rgb(160, 159, 159);
+    
+}
+.two .twodown{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.two .twodown .fa-star-of-life,.fa-droplet,.fa-mask{
+    font-size: 19px;
+    padding: 12px 14px;
+    background-color: rgba(255, 255, 255, 0.537);
+    border-radius: 999px;
+    border: 1px solid black;
+}
+
+
+/*  */
+
+.three .threeup{
+
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+
+}
+
+.three .threeup .fa-truck{
+    padding: 12px 12px;
+    background-color: rgb(212,179,167);
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.threeup h2{
+margin-top: 5px;
+font-size: 29px;
+font-weight: 500;
+}
+
+.threeup p{
+    font-size: 14px;
+    color: gray;
+}
+.threeup p em{
+    font-style: normal;
+    color: rgb(160, 159, 159);
+    
+}
+.three .threedown{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.three .threedown .fa-star-of-life,.fa-droplet,.fa-mask{
+    font-size: 19px;
+    padding: 12px 14px;
+    background-color: rgba(255, 255, 255, 0.537);
+    border-radius: 999px;
+    border: 1px solid black;
+}
+
+
+.footer{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    padding-left: 35px;
+    padding-right: 35px;
+    justify-content: space-between;
+}
+
+.footer .footerleft{
+    width: 18%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footerleft .start{
+width: 35%;
+height: 100%;
+padding: 5px;
+border-radius: 12px;
+}
+.footerleft .start img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.footerleft .end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: start;
+}
+.footerleft .end h2{
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 14px;
+    padding-bottom: 10px;
+
+}
+.footerleft .end p{
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+    margin-top: 4px;
+}
+
+.footerleft .end p em{
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+}
+
+.footerleft .end .fa-arrow-right{
+    font-size: 13px;
+    padding: 3px 4px;
+    border: 1px solid black;
+    border-radius: 999px;
+    transform: rotate(-30deg);
+    position: relative;
+    left: 118%;
+    top: -22%;
+    
+}
+
+.footeright{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    align-items: end;
+justify-content: space-between;
+}
+
+.footeright h4{
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 14px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footeright p{
+    font-size: 13px;
+}
+
+.footeright p em{
+    font-style: normal;
+    color: gray;
+}
+
+.cards .fa-chevron-left{
+    padding: 8px 12px;
+    border: 1px solid black;
+    border-radius: 999px;
+    position: relative;
+    right: 80px;
+    cursor: pointer;
+}
+
+.cards .fa-chevron-right{
+    padding: 8px 12px;
+    border: 1px solid black;
+    border-radius: 999px;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+}
